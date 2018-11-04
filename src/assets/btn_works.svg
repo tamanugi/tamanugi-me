@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 102">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #87918f;
+      }
+
+      .cls-1 {
+        font-size: 90px;
+        font-family: Yutapon-coding-Heavy-Sl, Yutapon coding Heavy Sl;
+      }
+    </style>
+  </defs>
+  <g id="btn_works" transform="translate(-1074 -1051)">
+    <text id="WORKS_" data-name="WORKS
+" class="cls-1" transform="translate(1196 1055)"><tspan x="16.5" y="77">WORKS</tspan></text>
+    <path id="coffee-solid" class="cls-2" d="M38.527,102.714H77.1A19.291,19.291,0,0,0,96.384,83.429h6.429a25.714,25.714,0,0,0,0-51.429H24.062a4.81,4.81,0,0,0-4.821,4.821V83.429A19.291,19.291,0,0,0,38.527,102.714Zm64.286-57.857a12.857,12.857,0,0,1,0,25.714H96.384V44.857ZM112.4,122H9.658C.1,122-2.6,109.143,2.426,109.143H119.607c5.022,0,2.371,12.857-7.212,12.857Z" transform="translate(1074.056 1019)"/>
+  </g>
+</svg>

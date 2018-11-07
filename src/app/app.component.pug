@@ -2,20 +2,20 @@ header
 .main
   ul.menus
     li
-      a.btn
+      a.btn(href="#profile")
         img(src="/assets/btn_profile.svg")
     li
-      a.btn
+      a.btn(href="#skill")
         img(src="/assets/btn_skill.svg")
     li
-      a.btn
+      a.btn(href="#works")
         img(src="/assets/btn_works.svg")
     li
-      a.btn
+      a.btn(href="#sns")
         img(src="/assets/btn_social.svg")
   section.profile
     h2.header
-      a(href="#profile", name="prod")
+      a(name="profile")
         img(src="/assets/btn_profile.svg")
     .content
       .left
@@ -31,7 +31,7 @@ header
           |現在興味があるのは Elixir, Angular, k8sなどです。
   section.skill
     h2.header
-      a(href="#skill", name="skill")
+      a(name="skill")
         img(src="/assets/btn_skill.svg")
     .content
       ul.left
@@ -60,12 +60,12 @@ header
         li ChatOps
   section.works
     h2.header
-      a(href="#works", name="works")
+      a(name="works")
         img(src="/assets/btn_works.svg")
     .content
   section.sns
     h2.header
-      a(href="#sns", name="sns")
+      a(name="sns")
         img(src="/assets/btn_social.svg")
     .content
       ul.sns-icons

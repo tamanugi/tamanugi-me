@@ -13,22 +13,7 @@ header
     li
       a.btn((click)="scroll(social)")
         img(src="/assets/btn_social.svg")
-  section.profile
-    h2.header(#profile)
-      a(name="profile")
-        img(src="/assets/btn_profile.svg")
-    .content
-      .left
-        img(src="/assets/icon.png")
-      .right
-        .name
-          |KAZUKI YAMADA
-          a(href="")
-          |(@tamanugi)
-        .desc
-          |福井で自社サービス開発を行っている会社にWebエンジニアとして働いています。
-          |仕事ではJavaをメインでやっており、
-          |プライベートではElixir, Angularを勉強しています。
+  app-profile
   section.skill(#skill)
     h2.header
       a(name="skill")

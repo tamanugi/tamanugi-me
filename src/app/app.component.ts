@@ -12,12 +12,14 @@ import { SnsComponent } from './section/sns/sns.component';
 export class AppComponent {
   title = 'tamanugi-me';
 
+  @ViewChild('menuWrapper') menuWrapper: ElementRef;
   @ViewChild('profileComp') profileComp: ProfileComponent;
   @ViewChild('skillComp') skillComp: SkillComponent;
   @ViewChild('worksComp') worksComp: WorksComponent;
   @ViewChild('snsComp') snsComp: SnsComponent;
 
   scroll(el: ElementRef) {
-    el.nativeElement.scrollIntoView({behavior: 'smooth', block: 'start'});
+    const targetTop = el.nativeElement.offsetTop - this.menuWrapper.nativeElement.clientHeight - 5
+    window.scroll({top: targetTop, behavior: 'smooth'})
   }
 }

@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tamanugi-me';
+
+  scroll(el) {
+    el.scrollIntoView({behavior: 'smooth', block: 'start'});
+  }
 }

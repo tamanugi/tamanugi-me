@@ -2,19 +2,19 @@ header
 .main
   ul.menus
     li
-      a.btn(href="#profile")
+      a.btn((click)="scroll(profile)")
         img(src="/assets/btn_profile.svg")
     li
-      a.btn(href="#skill")
+      a.btn((click)="scroll(skill)")
         img(src="/assets/btn_skill.svg")
     li
-      a.btn(href="#works")
+      a.btn((click)="scroll(works)")
         img(src="/assets/btn_works.svg")
     li
-      a.btn(href="#sns")
+      a.btn((click)="scroll(social)")
         img(src="/assets/btn_social.svg")
   section.profile
-    h2.header
+    h2.header(#profile)
       a(name="profile")
         img(src="/assets/btn_profile.svg")
     .content
@@ -29,7 +29,7 @@ header
           |福井で自社サービス開発を行っている会社にWebエンジニアとして働いています。
           |仕事ではJavaをメインでやっており、
           |プライベートではElixir, Angularを勉強しています。
-  section.skill
+  section.skill(#skill)
     h2.header
       a(name="skill")
         img(src="/assets/btn_skill.svg")
@@ -59,7 +59,7 @@ header
         li Gitlab CI
         li ChatOps
   section.works
-    h2.header
+    h2.header(#works)
       a(name="works")
         img(src="/assets/btn_works.svg")
     .content
@@ -121,7 +121,7 @@ header
               a(href="https://qiita.com/tamanugi/items/6bac63ff6a5c31d8e65d") qiita
               a(href="https://github.com/tamanugi/slack_bot_stock_chart") github
   section.sns
-    h2.header
+    h2.header(#social)
       a(name="sns")
         img(src="/assets/btn_social.svg")
     .content

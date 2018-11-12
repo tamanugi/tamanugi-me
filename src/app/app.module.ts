@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SkillComponent } from './section/skill/skill.component';
 import { ProfileComponent } from './section/profile/profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    SkillComponent,
     ProfileComponent
   ],
   imports: [

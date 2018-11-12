@@ -1,19 +1,20 @@
 header
 .main
-  ul.menus
-    li
-      a.btn((click)="scroll(profile)")
-        img(src="/assets/btn_profile.svg")
-    li
-      a.btn((click)="scroll(skill)")
-        img(src="/assets/btn_skill.svg")
-    li
-      a.btn((click)="scroll(works)")
-        img(src="/assets/btn_works.svg")
-    li
-      a.btn((click)="scroll(social)")
-        img(src="/assets/btn_social.svg")
-  app-profile
-  app-skill
-  app-works
-  app-sns
+  .menu-wrapper
+    ul.menus
+      li
+        a.btn((click)="scroll(profileComp.header)")
+          img(src="/assets/btn_profile.svg")
+      li
+        a.btn((click)="scroll(skillComp.header)")
+          img(src="/assets/btn_skill.svg")
+      li
+        a.btn((click)="scroll(worksComp.header)")
+          img(src="/assets/btn_works.svg")
+      li
+        a.btn((click)="scroll(snsComp.header)")
+          img(src="/assets/btn_social.svg")
+  app-profile(#profileComp)
+  app-skill(#skillComp)
+  app-works(#worksComp)
+  app-sns(#snsComp)

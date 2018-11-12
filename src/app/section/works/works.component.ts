@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-works',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./works.component.styl']
 })
 export class WorksComponent implements OnInit {
+
+  @ViewChild('header') header: ElementRef
 
   constructor() { }
 

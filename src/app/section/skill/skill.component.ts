@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-skill',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./skill.component.styl']
 })
 export class SkillComponent implements OnInit {
+
+  @ViewChild('header') header: ElementRef
 
   constructor() { }
 
